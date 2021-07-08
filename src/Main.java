@@ -20,14 +20,14 @@ public class Main {
 		var animal = "coelho";
 	}
 
-	private void exemplo_01() {
+	private void exemplo_00() {
 		var nome = "Luciano";
 	}
 
 	/**
-	 * Nao compila se retribuir um outro tipo, diferente do inferido.
+	 * Nao compila se reatribuir um outro tipo, diferente do inferido.
 	 */
-	private void exemplo_02() {
+	private void exemplo_01() {
 		var nome = "Luciano";
 		// nome = 777; // DOES NOT COMPILE
 	}
@@ -35,7 +35,7 @@ public class Main {
 	/**
 	 * Nao compila quando o primitivo atribuido for maior que o inferido no 'cast'.
 	 */
-	private void exemplo_03() {
+	private void exemplo_02() {
 		var numero = (int) 777;
 		// numero = (long) 777; //DOES NOT COMPILE
 	}
@@ -43,20 +43,30 @@ public class Main {
 	/**
 	 * Nao compila pois precisamos inicializar.
 	 */
-	private void exemplo_04() {
+	private void exemplo_03() {
+		String nome;
+		nome = "Luciano";
 		// var nome; // DOES NOT COMPILE
 		// nome = "Luciano";
+	}
+
+	/**
+	 * Compila porque recebeu um CAST.
+	 */
+	private void exemplo_04() {
+		var nome = (String) null; // DOES COMPILE
 	}
 
 	/**
 	 * Nao compila, pois todas as variaveis precisam ser inicializadas.
 	 */
 	private void exemplo_05() {
+		int x, y, z = 0;
 		// var a, b, c = 19; // DOES NOT COMPILE
 	}
 
 	/**
-	 * Nao compila pois um promitivo nao pode receber NULL.
+	 * Nao compila pois um primitivo nao pode receber NULL.
 	 */
 	private void exemplo_06() {
 		var numero = 1;
@@ -64,16 +74,10 @@ public class Main {
 	}
 
 	/**
-	 * Compila porque recebeu um CAST.
-	 */
-	private void exemplo_07() {
-		var nome = (String) null; // DOES COMPILE
-	}
-
-	/**
 	 * Compila pois var é um tipo reservado, e nao uma palavra reservada.
 	 */
 	private void exemplo_08() {
+		Integer Integer = 0;
 		var var = "var";
 	}
 
@@ -109,6 +113,6 @@ public class Main {
 	/**
 	 * Nao compila pois usamos o tipo reservado var para nomear uma class
 	 */
-	// class var {}
+	 //class var {}
 
 }
