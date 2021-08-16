@@ -1,3 +1,5 @@
+![](https://github.com/ocpjp-study/local-variable-inference/blob/main/ocpjp.jpg)
+
 [Preparação para o Exame 1Z0-817](https://education.oracle.com/pt_BR/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
 
 ### Tópico: Local Variable Inference
