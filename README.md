@@ -5,8 +5,8 @@
 ### Tópico: Local Variable Inference
 
 ### Objetivos
-- Criar e usar var local do tipo inference;
-- Criar e usar var em parâmetros de expressões lambdas;
+- Criar e usar `var` local do tipo inference;
+- Criar e usar `var` em parâmetros de expressões lambdas;
 
 ### Regras
 - Um `var` é usado como uma variável local em construtores, métodos, ou blocos de inicialização;
@@ -20,4 +20,4 @@
 - Expressões lambda:
   - Precisam de um tipo explícito;
   - Não podemos usar var para alguns, e ignorar para outro (var s1, s2) -> s1 + s2 `NÃO COMPILA`
-  - Não podemos misturar var com tipos explícitos: (var s1, String s2) -> s1 + s2V `NÃO COMPILA`
+  - Não podemos misturar var com tipos explícitos: (var s1, String s2) -> s1 + s2 `NÃO COMPILA`
