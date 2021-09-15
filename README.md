@@ -8,7 +8,9 @@
 - Criar e usar `var` local do tipo inference;
 - Criar e usar `var` em parâmetros de expressões lambdas;
 
-### Regras
+<hr> 
+
+### Resumo
 - Um `var` é usado como uma variável local em construtores, métodos, ou blocos de inicialização;
 - Um `var` não pode ser usado como parâmetro de construtor, método, variável de instância ou variável de classe;
 - Um `var` sempre é inicializado na mesma linha onde é declarado;
