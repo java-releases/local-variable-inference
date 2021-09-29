@@ -23,3 +23,4 @@
   - Precisam de um tipo explícito;
   - Não podemos usar var para alguns, e ignorar para outro (var s1, s2) -> s1 + s2 `NÃO COMPILA`
   - Não podemos misturar var com tipos explícitos: (var s1, String s2) -> s1 + s2 `NÃO COMPILA`
+  - Não podemos usar final quando não tem um tipo ou naõ for um var: (final x) -> x; `NÃO COMPILA`
