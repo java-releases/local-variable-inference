@@ -1,4 +1,4 @@
-![](https://github.com/ocpjp-study/local-variable-inference/blob/main/local-variable-inference.png)
+![](https://github.com/ocpjp-study/local-variable-inference/blob/main/local-variable-inference.jpg)
 
 ### Tópico: Local Variable Inference
 
